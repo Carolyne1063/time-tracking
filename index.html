@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  
+  <style>
+    @import url(style.css);
+  </style>
+</head>
+<body>
+
+  <div class="grid-container">
+    <div  style="width: 180px; height: 400px; background-color: hsl(235, 46%, 20%);" class="grid1">
+      <div style="background-color: hsl(236, 65%, 56%); border-radius: 10px;" class="Jeremy">
+        <img src="images\image-jeremy.png" alt="jeremy-pic" width="70px" height="60px" style="margin-top: 20px; margin-left: 20px; border: 3px solid white; border-radius: 50%;">
+        <p style="font-size: 15px; font-weight: 300; color: rgb(164, 164, 199); margin-left: 20px; margin-top: 20px;">Report for</p>
+        <p style="margin-left: 20px; font-weight: 300; font-size: 30px;">Jeremy <br>Robson <br> <br> <br></p>
+      </div>
+    
+      <div style="background-color: hsl(235, 46%, 20%); border-radius: 10px;" class="frequency">
+        <p style=" margin-left: 20px;color: hsl(236, 65%, 56%); font-size: 16px; padding-top: 20px;">Daily</p>
+        <p style="margin-left: 20px; font-size: 16px; margin-top: 20px;">Weekly</p>
+        <p style="margin-left: 20px; color: hsl(236, 65%, 56%); font-size: 16px; margin-top: 20px; padding-bottom: 28px;">Monthly</p>
+      </div>
+    </div>
+    
+    
+    <div class="grid-sec2">
+      <div class="grid2">
+        <img src="images\icon-work.svg" style="float: right;" width="34px" height="30px">
+        <div style="background-color: hsl(235, 46%, 20%); margin-top: 30px; width: 200px; height: 170px; border-radius: 10px;" class="work">
+          <p style="margin-bottom: 25px; font-weight: 500; margin-left: 16px; padding-top: 18px; margin-right: 16px;">Work <img src="images\icon-ellipsis.svg" style="float: right; cursor: pointer;"></p>
+          <p style="font-size: 40px; font-weight: 300; margin-bottom: 10px; margin-left: 16px;">32hrs </p>
+          <p style="font-weight: 400; font-size: 14px; color:rgb(164, 164, 199); margin-left: 16px;">Last Week- 36hrs</p>
+        </div>
+      </div>
+      
+      <div class="grid3">
+        <img src="images\icon-play.svg" style="float: right;" width="34px" height="30px">
+        <div style="background-color: hsl(235, 46%, 20%); margin-top: 30px; width: 200px; height: 170px; border-radius: 10px;" class="play">
+          <p style="margin-bottom: 25px; font-weight: 500; margin-left: 16px; padding-top: 18px; margin-right: 16px;">Play <img src="images\icon-ellipsis.svg" style="float: right; cursor: pointer;"></p>
+          <p style="font-size: 40px; font-weight: 300; margin-bottom: 10px; margin-left: 16px;">10hrs </p>
+          <p style="font-weight: 400; font-size: 14px; color:rgb(164, 164, 199); margin-left: 16px;">Last week- 8hrs</p>
+        </div>
+      </div>
+      
+      <div class="grid4">
+        <img src="images\icon-study.svg" style="float: right;" width="34px" height="30px">
+        <div style="background-color: hsl(235, 46%, 20%); margin-top: 30px; width: 200px; height: 170px; border-radius: 10px;" class="study">
+          <p style="margin-bottom: 25px; font-weight: 500; margin-left: 16px; padding-top: 18px; margin-right: 16px;">Study <img src="images\icon-ellipsis.svg" style="float: right; cursor: pointer;"></p>
+          <p style="font-size: 40px; font-weight: 300; margin-bottom: 10px; margin-left: 16px;">4hrs</p>
+          <p style="font-weight: 400; font-size: 14px; color:rgb(164, 164, 199); margin-left: 16px;">Last Week- 7hrs</p>
+        </div>
+      </div>
+      
+      <div class="grid5">
+        <img src="images\icon-exercise.svg" style="float: right;" width="34px" height="30px">
+        <div style="background-color: hsl(235, 46%, 20%); margin-top: 30px; width: 200px; height: 170px; border-radius: 10px;" class="Exercise">
+          <p style="margin-bottom: 25px; font-weight: 500; margin-left: 16px; padding-top: 18px; margin-right: 16px;">Exercise <img src="images\icon-ellipsis.svg" style="float: right; cursor: pointer;"></p>
+          <p style="font-size: 40px; font-weight: 300; margin-bottom: 10px; margin-left: 16px;">4hrs</p>
+          <p style="font-weight: 400; font-size: 14px; color:rgb(164, 164, 199); margin-left: 16px;">Last Week- 5hrs</p>
+        </div>
+      </div>
+      
+      <div class="grid6">
+        <img src="images\icon-social.svg" style="float: right;" width="34px" height="30px">
+        <div style="background-color: hsl(235, 46%, 20%); margin-top: 30px; width: 200px; height: 170px; border-radius: 10px;" class="Social">
+          <p style="margin-bottom: 25px; font-weight: 500; margin-left: 16px; padding-top: 18px; margin-right: 16px;">Social <img src="images\icon-ellipsis.svg" style="float: right; cursor: pointer;"></p>
+          <p style="font-size: 40px; font-weight: 300; margin-bottom: 10px; margin-left: 16px;">5hrs</p>
+          <p style="font-weight: 400; font-size: 14px; color:rgb(164, 164, 199); margin-left: 16px;">Last Week- 10hrs</p>
+        </div>
+      </div>
+    
+      <div class="grid7">
+        <img src="images\icon-self-care.svg" style="float: right;" width="34px" height="30px">
+        <div style="background-color: hsl(235, 46%, 20%); margin-top: 30px; width: 200px; height: 170px; border-radius: 10px;" class="Self Care">
+          <p style="margin-bottom: 25px; font-weight: 500; margin-left: 16px; padding-top: 18px; margin-right: 16px;">Self Care <img src="images\icon-ellipsis.svg" style="float: right; cursor: pointer;"></p>
+          <p style="font-size: 40px; font-weight: 300; margin-bottom: 10px; margin-left: 16px;">2hrs</p>
+          <p style="font-weight: 400; font-size: 14px; color:rgb(164, 164, 199); margin-left: 16px;">Last Week- 2hrs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+  
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* .grid-sec1{
+
+} */
+
+.grid1{
+    width: 180px;
+    height: 400px;
+    margin-right: 50px;
+    border-radius: 10px;
+    
+}
+
+.grid-sec2{
+    display: grid;
+    grid-template-areas: 
+    'w p st'
+    'e so se';
+}
+
+
+
+.grid2{
+    background-color: hsl(15, 100%, 70%);
+    grid-area: w;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.grid3{
+    background-color: hsl(195, 74%, 62%);
+    grid-area: p;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.grid4{
+    background-color: hsl(348, 100%, 68%);
+    grid-area: st;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.grid5{
+    background-color: hsl(145, 58%, 55%);
+    grid-area: e;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.grid6{
+    background-color: hsl(264, 64%, 52%);
+    grid-area: so;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.grid7{
+    background-color: hsl(43, 84%, 65%);
+    grid-area: se;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
